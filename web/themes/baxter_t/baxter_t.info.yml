@@ -1,0 +1,8 @@
+name: Baxter's Theme
+type: theme
+description: This Baxter's theme.
+core: 8.x
+# Defines the base theme
+base theme: stark
+libraries:
+  - baxter_t/global-styling

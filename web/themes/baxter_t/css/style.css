@@ -1,0 +1,81 @@
+body {
+  background-color: #222;
+  color: #ddd;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited, a:active {
+  color: #ccc;
+}
+
+
+header #block-baxter-t-branding {
+  text-align: center;
+  font-size: x-large;
+}
+
+header #block-baxter-t-branding a {
+  text-decoration: none;
+}
+
+main #block-baxter-t-local-tasks > ul {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  width: 100%;
+  padding-left: 0;
+}
+
+main #block-baxter-t-local-tasks > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: .25em .25em 0 0;
+  margin-bottom: -1px;
+  margin-left: 1em;
+  background-color: #444;
+}
+
+main #block-baxter-t-local-tasks > ul > li.is-active {
+  border-bottom-color: #222;
+  background-color: #222;
+}
+
+main #block-baxter-t-local-tasks > ul > li > a {
+  padding: .25em .5em;
+  display: block;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    display: flex;
+  }
+
+  main > aside {
+    width: 200px;
+  }
+  main > aside.layout-sidebar-first {
+    order: 0;
+    margin-right: 1em;
+  }
+
+  main > aside.layout-sidebar-second {
+    order: 2;
+    margin-left: 1em;
+  }
+
+  main > div.layout-content {
+    order: 1;
+    flex: 1 0 auto;
+  }
+}
