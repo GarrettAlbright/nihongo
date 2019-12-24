@@ -1,0 +1,22 @@
+uuid: 3a9698cd-5c5d-4873-b546-5ed0049a5477
+langcode: en
+status: true
+dependencies:
+  theme:
+    - baxter_t
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: baxter_t_local_tasks
+theme: baxter_t
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

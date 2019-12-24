@@ -1,0 +1,25 @@
+uuid: 1339a5c0-320b-4cac-bb78-292df14b1343
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baxter_t
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: baxter_t_branding
+theme: baxter_t
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

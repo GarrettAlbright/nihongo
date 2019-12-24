@@ -1,0 +1,20 @@
+uuid: 2371f772-cfd2-474e-8aeb-6775cf9baec3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - baxter_t
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: baxter_t_local_actions
+theme: baxter_t
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
