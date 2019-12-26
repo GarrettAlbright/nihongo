@@ -9,7 +9,7 @@ _core:
 id: baxter_t_local_actions
 theme: baxter_t
 region: content
-weight: -10
+weight: 0
 provider: null
 plugin: local_actions_block
 settings:

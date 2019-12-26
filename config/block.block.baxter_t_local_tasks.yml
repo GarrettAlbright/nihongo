@@ -9,7 +9,7 @@ _core:
 id: baxter_t_local_tasks
 theme: baxter_t
 region: content
-weight: -20
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:
