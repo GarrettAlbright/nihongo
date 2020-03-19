@@ -196,7 +196,7 @@ display:
           row_class: ''
           default_row_class: true
           uses_fields: false
-      title: ''
+      title: 'Baxter''s Blog'
       header: {  }
       footer: {  }
       relationships: {  }
@@ -254,6 +254,7 @@ display:
     display_options:
       path: front
       display_extenders: {  }
+      rendering_language: '***LANGUAGE_language_interface***'
     display_plugin: page
     display_title: Page
     id: page_1
