@@ -203,6 +203,7 @@ display:
       fields: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: baxter_front
     display_plugin: default
     display_title: Master
     id: default

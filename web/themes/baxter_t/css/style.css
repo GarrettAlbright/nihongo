@@ -1,18 +1,18 @@
 body {
   background-color: #222;
-  color: #ddd;
+  color: #fff;
   font-family: sans-serif;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-a:link {
-  color: white;
+a:link, a:visited {
+  color: #ccc;
 }
 
-a:visited, a:active {
-  color: #ccc;
+a:active {
+  color: #cce;
 }
 
 
@@ -54,6 +54,24 @@ main #block-baxter-t-local-tasks > ul > li > a {
   padding: .25em .5em;
   display: block;
   text-decoration: none;
+}
+
+main article footer {
+  font-size: smaller;
+  color: #ddd;
+}
+
+main article img {
+  max-width: 100%;
+}
+
+main .baxter-front article::after {
+  width: 50%;
+  height: 1em;
+  border-bottom: 1px dotted gray;
+  display: block;
+  content: "";
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
