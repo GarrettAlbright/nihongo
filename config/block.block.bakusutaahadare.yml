@@ -1,0 +1,25 @@
+uuid: 2924c5d6-8a10-48a7-9c75-0d437decc7a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block:7d88e976-4e45-4cfd-812e-2540796dc3ab'
+  module:
+    - block_content
+  theme:
+    - baxter_t
+id: bakusutaahadare
+theme: baxter_t
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'block_content:7d88e976-4e45-4cfd-812e-2540796dc3ab'
+settings:
+  id: 'block_content:7d88e976-4e45-4cfd-812e-2540796dc3ab'
+  label: バクスターは誰？
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -196,7 +196,7 @@ display:
           row_class: ''
           default_row_class: true
           uses_fields: false
-      title: 'Baxter''s Blog'
+      title: ''
       header: {  }
       footer: {  }
       relationships: {  }
